@@ -5,4 +5,13 @@ class PostsController < ApplicationController
 
   def new
   end
+
+  def create
+    Post.create(post_params)
+  end
+
+  private
+  def post_params
+    params.permit(:content ,:image1 ,:image2)
+  end
 end

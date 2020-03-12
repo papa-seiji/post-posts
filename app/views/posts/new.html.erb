@@ -1,8 +1,10 @@
-<h1>New-Create-Page</h1>
+<h1 class="fon">New-Create-Page</h1>
 
 <%= form_tag('/posts', method: :post) do %> 
-  <input type="text" name="content"> 
-  <input type="file" name="image1">
-  <input type="file" name="image2">
-  <input type="submit" value="・SEND・">
+  
+  <input type="text" name="content" class="inp1"> 
+  <input type="file" name="image1"class="inp2">
+  <input type="file" name="image2"class="inp3">
+  <input type="submit" value="・SEND・"class="inp4">
 <% end %>
+
