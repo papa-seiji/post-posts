@@ -1,0 +1,33 @@
+.box{
+  width: calc(100% - 770px);
+  height: calc(100vh - 150px);
+  background-color:black;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  border-radius: 10px;
+  font-family: cursive;
+
+  .h{
+    font-size: 60px;
+    padding-top: 24px;
+  }
+
+  .post{
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 14px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+  }
+
+  .post-date{
+    color: rgb(161, 161, 161);
+    font-size: 13px;
+  }
+}
+
+
+
