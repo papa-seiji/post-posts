@@ -3,12 +3,21 @@
   <%= link_to '新規投稿', '/posts/new',class:'new_p' %>
 
   <% @posts.each do |post| %>
+  
     <div class="post">
       <div class="post-date">
         投稿日時：<%= post.created_at %>
       </div>
       <div class="post-content">
         <%= post.content %>
+      </div>
+      
+      <div class="post-image1">
+        <%= post.image1 %>
+      </div>
+
+      <div class="post-image2">
+        <%= post.image2 %>
       </div>
     </div>
   <% end %>
